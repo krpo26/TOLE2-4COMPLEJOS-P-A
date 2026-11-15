@@ -86,6 +86,13 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^4.0.0
 
+# Sin pubspec.lock, Codemagic baja la ultima version de cada paquete.
+# "image" 4.11.0 llama a un metodo (decodeLazy) que no existe en "archive"
+# 4.0.9, y eso rompia la compilacion. Se fija una version de "image"
+# conocida y compatible.
+dependency_overrides:
+  image: 4.5.4
+
 flutter:
   uses-material-design: true
   assets:
