@@ -1,0 +1,118 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+// NOTA sobre el número de versión: antes acá se leía
+// "flutter.versionCode" desde local.properties — un archivo que NO
+// existe en la máquina de Codemagic, así que siempre caía al valor
+// por defecto "1", fijo, en TODOS los builds. Como Android nunca
+// deja instalar una actualización si el número de versión no es
+// mayor al que ya está instalado, esto por sí solo ya bastaba para
+// que pidiera desinstalar siempre, sin importar que la firma
+// estuviera bien.
+//
+// Se intentó luego que Codemagic subiera el número solo, con la
+// variable $PROJECT_BUILD_NUMBER, pero esa variable sólo se
+// actualiza sola si el proyecto tiene conectada la publicación
+// automática a Google Play. Sin eso, Codemagic siempre la calcula
+// como "1" — por eso seguía sin actualizar.
+//
+// Por eso ahora el número de versión se maneja a mano, en el
+// archivo pubspec.yaml (línea "version: 1.0.X+N"). El plugin de
+// Flutter ("dev.flutter.flutter-gradle-plugin") lee ese número y lo
+// usa como versionCode/versionName — no se pisa acá. Cada vez que
+// quieras publicar una actualización, hay que subir el número "+N"
+// en pubspec.yaml ANTES de lanzar el build en Codemagic (ver
+// README, sección "Cómo publicar una actualización").
+
+// Firma de release propia y fija: SIEMPRE la misma clave en todos los
+// builds, para que una actualización se instale ENCIMA de la
+// anterior sin pedir desinstalar. Los datos (contraseñas, ruta de la
+// keystore) NUNCA se escriben acá ni se suben al repositorio: se leen
+// de key.properties, un archivo que solo existe en la máquina de
+// build de Codemagic (se genera en codemagic.yaml a partir de
+// variables de entorno seguras) o en tu máquina local si compilás a
+// mano. Si key.properties no existe (por ejemplo, alguien clona el
+// repo sin esas variables), se cae de nuevo a la key de debug, para
+// que el proyecto igual compile sin romperse.
+def keystorePropertiesFile = rootProject.file("key.properties")
+def keystoreProperties = new Properties()
+def hasReleaseKeystore = keystorePropertiesFile.exists()
+if (hasReleaseKeystore) {
+    keystorePropertiesFile.withReader("UTF-8") { reader ->
+        keystoreProperties.load(reader)
+    }
+}
+
+android {
+    namespace = "com.fleetapp.app"
+    compileSdk = 36
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled = true
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+    }
+
+    defaultConfig {
+        // Identificador único de la app. Cambiarlo antes de publicar
+        // en Google Play (debe ser único en toda la store).
+        applicationId = "com.fleetapp.app"
+        minSdk = 23
+        targetSdk = 34
+        // versionCode y versionName los pone solo el plugin de
+        // Flutter (ver nota arriba) — no se pisan acá a mano.
+    }
+
+    if (hasReleaseKeystore) {
+        signingConfigs {
+            release {
+                keyAlias = keystoreProperties["keyAlias"]
+                keyPassword = keystoreProperties["keyPassword"]
+                storeFile = keystoreProperties["storeFile"] ? file(keystoreProperties["storeFile"]) : null
+                storePassword = keystoreProperties["storePassword"]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            // Firma con la keystore propia (key.properties) cuando está
+            // disponible; si no, cae a la de debug para que el proyecto
+            // igual compile (pero esos builds NO son actualizables entre
+            // sí — ver comentario arriba).
+            signingConfig = hasReleaseKeystore ? signingConfigs.release : signingConfigs.debug
+            minifyEnabled = true
+            shrinkResources = true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+}
+
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+}
+
+// El plugin de Google Services (Firebase) solo se activa si existe el
+// archivo de configuración real google-services.json en esta carpeta.
+// Sin ese archivo, la app compila y funciona 100% offline igual;
+// para activar la sincronización en la nube más adelante, generá el
+// archivo con `flutterfire configure` (ver README) y volvé a compilar.
+if (file("google-services.json").exists()) {
+    apply plugin: "com.google.gms.google-services"
+}
+
+flutter {
+    source = "../.."
+}

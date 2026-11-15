@@ -1,0 +1,135 @@
+rules_version = '2';
+
+// Reglas de seguridad para Cloud Firestore — PARQUE AUTOMOTOR BENJAMIN PAZ
+//
+// CÓMO APLICARLAS:
+// 1. Entrá a https://console.firebase.google.com → tu proyecto
+// 2. Firestore Database → pestaña "Reglas"
+// 3. Borrá todo el contenido del editor y pegá este archivo completo
+// 4. Botón "Publicar"
+//
+// ADEMÁS, para que esto funcione hace falta habilitar el método de
+// inicio de sesión anónimo (una sola vez):
+// 1. Consola de Firebase → Authentication → pestaña "Sign-in method"
+// 2. Habilitá el proveedor "Anonymous"
+// Sin este paso, la app no va a poder autenticarse y las reglas de
+// abajo van a rechazar todo (la app sigue funcionando offline igual,
+// solo no sincroniza con la nube hasta que se habilite esto).
+//
+// Por qué esto importa: si el proyecto quedó en "modo de prueba"
+// (la opción por defecto al crear una base de Firestore), CUALQUIER
+// persona con la URL de tu proyecto puede leer y escribir todos los
+// datos sin necesidad de la app ni de ningún usuario/contraseña.
+//
+// CÓMO SE CIERRA ACÁ: la app inicia una sesión anónima de Firebase
+// Authentication apenas arranca (ver sync_service.dart). Estas reglas
+// exigen `request.auth != null` en cada colección — sin esa sesión,
+// no se puede leer ni escribir nada. Esto bloquea a cualquiera que
+// intente pegarle a Firestore directamente (con un script, curl,
+// Postman, etc.) sin pasar por el flujo de autenticación real.
+//
+// LIMITACIÓN HONESTA: la sesión anónima no identifica a la PERSONA
+// (todos los usuarios de la app comparten el mismo "tipo" de sesión,
+// no hay un usuario de Firebase por persona) — eso es un límite del
+// diseño actual, no de estas reglas. Y como Firebase Authentication
+// anónimo se puede iniciar con solo la configuración pública del
+// proyecto (la que ya viaja en el APK), un atacante MUY decidido que
+// se ponga a programar podría en teoría generar su propia sesión
+// anónima igual que hace la app. Lo que estas reglas sí garantizan es
+// que YA NO alcanza con encontrar la URL o copiar la configuración:
+// hay que además autenticarse, lo cual saca del juego a la enorme
+// mayoría de accesos casuales/automáticos y deja un rastro (cada
+// sesión anónima queda registrada en Firebase Authentication). Un
+// cierre a prueba de cualquier atacante requeriría mover el login a
+// un backend propio (Cloud Functions + Firebase Auth con
+// usuario/contraseña reales) — un cambio de arquitectura más grande,
+// avisame si en algún momento querés encararlo.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Bloquea TODO por defecto. Cada colección de abajo abre
+    // explícitamente lo que necesita — nada queda abierto "por las
+    // dudas".
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Vehículos, choferes, combustible, ficha técnica, mantenimiento
+    // y sus fotos: cualquier sesión autenticada (o sea, cualquier
+    // instancia real de la app) los lee/escribe libremente entre sí
+    // (todos los dispositivos del mismo parque automotor comparten
+    // estos datos).
+    match /vehicles/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /drivers/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /maintenance_records/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /vehicle_observation_photos/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /maintenance_record_photos/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /fuel_logs/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /vehicle_tech_sheets/{id} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Pestañas activadas/desactivadas por el admin (qué secciones ve
+    // cada usuario común) y el registro de quién aceptó los Términos
+    // de Uso y Confidencialidad.
+    match /feature_flags/{id} {
+      allow read, write: if request.auth != null;
+    }
+    // Logo, tema, color y letra de cada complejo (los define el admin).
+    // Aspecto y sonido de las notificaciones (lo define el admin).
+    match /app_settings/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /tramites/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /complex_appearance/{id} {
+      allow read, write: if request.auth != null;
+    }
+    match /legal_acceptances/{id} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Historial de auditoría (quién hizo qué y cuándo). Solo permite
+    // CREAR entradas nuevas, nunca editarlas ni borrarlas — así el
+    // registro no se puede alterar después de generado, ni siquiera
+    // desde dentro de la app.
+    match /audit_log/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update, delete: if false;
+    }
+
+    // Registro de lo borrado definitivamente (vehículos, choferes,
+    // usuarios). Es lo que hace que un borrado llegue a TODOS los
+    // dispositivos y nada vuelva a aparecer al sincronizar. Solo se
+    // puede crear/leer: nunca editar ni borrar.
+    match /deleted_records/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update, delete: if false;
+    }
+
+    // Usuarios comunes: la colección existe para que puedan
+    // iniciar sesión desde cualquier dispositivo. Solo contiene el
+    // usuario y el HASH de la contraseña (nunca la contraseña en
+    // texto plano), y el usuario god NUNCA se sube acá.
+    match /common_users/{id} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+

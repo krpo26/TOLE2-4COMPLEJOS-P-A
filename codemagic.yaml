@@ -1,0 +1,65 @@
+workflows:
+  android-apk:
+    name: PARQUE AUTOMOTOR - Android APK
+    max_build_duration: 60
+    instance_type: linux_x2
+    environment:
+      flutter: stable
+      # Grupo de variables seguras creado en Codemagic (Settings del
+      # proyecto → Environment variables → grupo "keystore_credentials"):
+      #   CM_KEYSTORE            → la keystore .jks codificada en base64
+      #   CM_KEYSTORE_PASSWORD   → contraseña de la keystore
+      #   CM_KEY_ALIAS           → alias de la clave (fleetapp)
+      #   CM_KEY_PASSWORD        → contraseña de la clave
+      # Todas marcadas "Secure" en Codemagic para que no se vean en
+      # los logs. Nunca se suben al repositorio de GitHub.
+      groups:
+        - keystore_credentials
+      vars:
+        PACKAGE_NAME: "com.fleetapp.app"
+    scripts:
+      - name: Limpiar build anterior
+        script: |
+          flutter clean
+      - name: Preparar firma de release
+        script: |
+          if [ -n "$CM_KEYSTORE" ]; then
+            echo "$CM_KEYSTORE" | base64 --decode > $CM_BUILD_DIR/android/app/fleetapp-release.keystore.jks
+            cat > $CM_BUILD_DIR/android/key.properties <<EOF
+          storePassword=$CM_KEYSTORE_PASSWORD
+          keyPassword=$CM_KEY_PASSWORD
+          keyAlias=$CM_KEY_ALIAS
+          storeFile=$CM_BUILD_DIR/android/app/fleetapp-release.keystore.jks
+          EOF
+          else
+            echo "Aviso: no hay variables de keystore configuradas. Este build va a firmarse con la key de debug y NO podrá instalarse como actualización sobre versiones firmadas con la keystore propia."
+          fi
+      - name: Obtener dependencias
+        script: |
+          flutter pub get
+      - name: Compilar APK release
+        script: |
+          # El número de versión NO lo pone Codemagic: se toma tal
+          # cual está escrito en pubspec.yaml (línea "version: X.Y.Z+N").
+          # Antes se probó con la variable automática $PROJECT_BUILD_NUMBER,
+          # pero esa solo sube sola si el proyecto está conectado a la
+          # publicación automática en Google Play; si no, Codemagic
+          # siempre la calcula como "1" y por eso nunca actualizaba.
+          # Por eso: ANTES de lanzar un build para publicar una
+          # actualización, subí a mano el número "+N" en pubspec.yaml,
+          # subilo a GitHub, y recién ahí iniciá el build acá.
+          # Número de versión AUTOMÁTICO: segundos desde 1970 al
+          # momento del build. Siempre es mayor que el del build
+          # anterior, así que cada APK nuevo se instala encima del
+          # viejo sin desinstalar y sin tocar pubspec.yaml. (Pisa el
+          # número +N del pubspec.)
+          flutter build apk --release --build-number=$(date +%s)
+    artifacts:
+      - build/app/outputs/flutter-apk/*.apk
+    publishing:
+      email:
+        recipients:
+          - tu-email@ejemplo.com
+        notify:
+          success: true
+          failure: true

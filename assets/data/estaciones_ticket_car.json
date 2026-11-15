@@ -1,0 +1,1298 @@
+[
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1066 CORDOBA",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "CORDOBA, AV. 0",
+"locality": "ALMAGRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 484 JEAN JAURES",
+"owner": "YAPAY NEASA S.R.L",
+"cuit": "30695243673",
+"address": "CORRIENTES, AV. 3101",
+"locality": "BALVANERA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1135 BALVANERA",
+"owner": "INPIERI, PIÑEIRO, RIZZO Y ASOC.SA",
+"cuit": "30712289046",
+"address": "MEXICO 2701",
+"locality": "BALVANERA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 523 MONTES DE OCA",
+"owner": "MONTES DE OCA 1885 S.R.L.",
+"cuit": "30712490442",
+"address": "MONTES DE OCA, MANUEL,AV 1885",
+"locality": "BARRACAS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "B-EESS GH SERVICIOS",
+"owner": "GHIOLDI HNOS S.A. DE T.C.I. Y F.",
+"cuit": "30529963315",
+"address": "LOS PATOS 1702",
+"locality": "BARRACAS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "BLANCA SUR GAS",
+"owner": "SUR GAS SA",
+"cuit": "30640360816",
+"address": "VALLE, ARISTOBULO DEL 1914",
+"locality": "BARRACAS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "B- INTEG. EST. SOLA",
+"owner": "INTEGRAL ESTACION SOLA S.A.",
+"cuit": "33597944719",
+"address": "AUSTRALIA, AV. 2550",
+"locality": "BARRACAS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "DAPSA BELGRANO",
+"owner": "CRISTINA ISABELLI DE MARTINEZ E HIJOS SH",
+"cuit": "30708688882",
+"address": "JURAMENTO 3411",
+"locality": "BELGRANO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA ENERGY",
+"owner": "CASAMASSIMA LEANDRO OMAR",
+"cuit": "30715118145",
+"address": "LA PLATA, AV. 1614",
+"locality": "BOEDO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF AVENIDA LA PLATA",
+"owner": "PROINCO S.A.",
+"cuit": "30538851937",
+"address": "LA PLATA, AV. 901",
+"locality": "BOEDO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION KUKE",
+"owner": "KUKE SRL",
+"cuit": "30568459500",
+"address": "DIRECTORIO, AV. 1796",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA - DIRECTORIO",
+"owner": "GASTAB S.A.",
+"cuit": "33641720599",
+"address": "DIRECTORIO, AV. 1110",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF DIRECTORIO",
+"owner": "LOPEZ JAVIER OMAR Y OTERO ROBERTO S.H",
+"cuit": "30709429430",
+"address": "DIRECTORIO, AV. 802",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF UBR",
+"owner": "U.B.R. S.A.",
+"cuit": "30707918302",
+"address": "JUSTO, JUAN B., AV. 3508",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF UNENS",
+"owner": "UNENS S.R.L",
+"cuit": "33688436279",
+"address": "ESPINOSA 613",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF SERV.RIVADAVIA LOPEZ Y OT",
+"owner": "LOPEZ JAVIER OMAR Y OTERO ROBERTO S.H",
+"cuit": "30709429430",
+"address": "RIVADAVIA, AV. 6043",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF RERIFE CABALLITO",
+"owner": "RERIFE S.A.",
+"cuit": "30677909001",
+"address": "ALBERDI, JUAN B., AV. 100",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1804 ALMIRO",
+"owner": "ALMIRO S.R.L.",
+"cuit": "30597212603",
+"address": "ALBERDI, JUAN B., AV. 1502",
+"locality": "CABALLITO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF BOYACA",
+"owner": "BOYACA C.I.S.A",
+"cuit": "30537387870",
+"address": "ELCANO, AV. 4000",
+"locality": "CHACARITA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF LEBRETON",
+"owner": "LEBRETON SRL",
+"cuit": "30657213663",
+"address": "CONGRESO, AV. 4008",
+"locality": "COGHLAN"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 486 ROCCA II",
+"owner": "ROCCA COMBUSTIBLES S.A.",
+"cuit": "30637769002",
+"address": "ENTRE RIOS, AV. 1803",
+"locality": "CONSTITUCION"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1307 ROCCA",
+"owner": "ROCCA COMBUSTIBLES S.A.",
+"cuit": "30637769002",
+"address": "ENTRE RIOS, AV. 1886",
+"locality": "CONSTITUCION"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "GULF CONSTITUCION",
+"owner": "TOPEMA S.A.",
+"cuit": "30631225507",
+"address": "CASEROS, AV. 1399",
+"locality": "CONSTITUCION"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1848 GENERAL PAZ",
+"owner": "ESTACION DE SERVICIO ALCOVER SRL",
+"cuit": "30715537512",
+"address": "PERON, EVA, AV. 7460",
+"locality": "FLORES"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA EVA PERON",
+"owner": "ESTACION DE SERVICIOS SANTA TERESITA SRL",
+"cuit": "30715542664",
+"address": "PERON, EVA, AV. 3668",
+"locality": "FLORES"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF PERITO MORENO(LA QUEMITA)",
+"owner": "SUPER SERVICIOS S.A.",
+"cuit": "30654236069",
+"address": "MORENO PERITO, AV. 3393",
+"locality": "FLORES"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF RIVAGAS",
+"owner": "RIVAGAS S.A.",
+"cuit": "30644634341",
+"address": "RIVADAVIA, AV. 8101",
+"locality": "FLORESTA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1164 ALBERDI",
+"owner": "ALBERDI 2299 SRL",
+"cuit": "33709344809",
+"address": "ALBERDI, JUAN B., AV. 2299",
+"locality": "FLORESTA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE FLORESTA",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "RIVADAVIA, AV. 8201",
+"locality": "FLORESTA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF PATRIGAS",
+"owner": "PATRIGAS S.A.",
+"cuit": "30625761812",
+"address": "REG. DE PATRICIOS, AV. 1302",
+"locality": "LA BOCA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 2042",
+"owner": "SERVICIOS TIGRE S.A.",
+"cuit": "30712485449",
+"address": "TRELLES, MANUEL R. 1671",
+"locality": "LA PATERNAL"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1840 PATERNAL",
+"owner": "ASAMUL SRL",
+"cuit": "30715527649",
+"address": "SAN MARTIN, AV. 3500",
+"locality": "LA PATERNAL"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1506 AV. GRAL PAZ",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "PAZ, GRAL., AVENIDA 5500",
+"locality": "LINIERS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF- GASOLEO S.A.",
+"owner": "GASOLEO S.A.",
+"cuit": "30620098058",
+"address": "JUSTO, JUAN B., AV. 9750",
+"locality": "LINIERS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE GRAL. PAZ PCIA.",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "PAZ, GRAL., AVENIDA 525",
+"locality": "LINIERS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE GRAL. PAZ CAP.",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "PAZ, GRAL., AVENIDA 11200",
+"locality": "LINIERS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "GULF LINIERS",
+"owner": "PASCUALITO S.A.",
+"cuit": "30516047875",
+"address": "CARHUE 996",
+"locality": "LINIERS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE EMILIO CASTRO",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "CASTRO, EMILIO, AV. 6512",
+"locality": "LINIERS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA LINIERS",
+"owner": "PAMPA ENERGIA SA",
+"cuit": "30526552659",
+"address": "RIVADAVIA, AV. 10978",
+"locality": "LINIERS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "GULF WHITE",
+"owner": "WHITE S.R.L.",
+"cuit": "30643979825",
+"address": "DIRECTORIO, AV. 4586",
+"locality": "MATADEROS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 497 MATADEROS ROCCA",
+"owner": "ROCCA COMBUSTIBLES S.A.",
+"cuit": "30637769002",
+"address": "ALBERDI, JUAN B., AV. 7019",
+"locality": "MATADEROS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF MATADEROS",
+"owner": "PROYECTOS SUSTENTABLES S.A",
+"cuit": "30712389431",
+"address": "DE LA TORRE,LISANDRO AV. 2179",
+"locality": "MATADEROS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF - DUAL GASOLEO II",
+"owner": "GASOLEO S.A.",
+"cuit": "30620098058",
+"address": "ALBERDI, JUAN B., AV. 7500",
+"locality": "MATADEROS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF MATADEROS",
+"owner": "DESTINATUM S.A",
+"cuit": "30712135022",
+"address": "PERON, EVA, AV. 6102",
+"locality": "MATADEROS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 289 LIMA",
+"owner": "ESTACION LIMA S.A.",
+"cuit": "30537679855",
+"address": "LIMA 899",
+"locality": "MONTSERRAT"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "DISTRI ENAUSA",
+"owner": "ENAUSA S.A.",
+"cuit": "30714794538",
+"address": "AZOPARDO 770",
+"locality": "MONTSERRAT"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "B- CENTENERA",
+"owner": "SEFER S.A.",
+"cuit": "30660198713",
+"address": "BARCO CENTENERA, DEL,AV. 3182",
+"locality": "NUEVA POMPEYA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION ROCA",
+"owner": "LEJEM S.A.",
+"cuit": "30627539629",
+"address": "RABANAL, INTENDENTE AV 1733",
+"locality": "NUEVA POMPEYA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 565 PASGAL",
+"owner": "PASGAL SA",
+"cuit": "30608897336",
+"address": "ATUEL 1093",
+"locality": "NUEVA POMPEYA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1068 GIUFRA",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "PASEO COLON, AV. 849",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1220 J. B. JUSTO",
+"owner": "JUAN B. JUSTO 1333 S.A.",
+"cuit": "33649669029",
+"address": "JUSTO, JUAN B., AV. 1333",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE ALVEAR",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "DEL LIBERTADOR, AV. 2589",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1132 JORGE NEWBERY",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "CORRIENTES, AV. 6535",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1233 KINKA",
+"owner": "KINKA S.A.",
+"cuit": "30615530065",
+"address": "SCALABRINI ORTIZ, RAUL 1406",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 31 ALCORT",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "FIGUEROA ALCORTA, P.,AV. 3099",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 3 RIVER",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "FIGUEROA ALCORTA, P.,AV. 7786",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1469 ILLIA",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "AUTOPISTA ILLIA 0",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 29 CABILDO",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "CABILDO, AV. 4701",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE CABILDO",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "CABILDO, AV. 695",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1539 CABA",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "24 DE NOVIEMBRE 791",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1553 CDRO RIVADAVIA",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "DEL LIBERTADOR, AV. 7920",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 36 PALERMO",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "LINCOLN, AV. 3999",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1695 DIAZ VELEZ",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "DIAZ VELEZ, AV. 4368",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 599 VIRREY DEL PINO",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "CRAMER 1691",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1482 MAZA",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "MAZA 391",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA CASA CENTRAL",
+"owner": "REFINERIA BAHIA BLANCA SAU",
+"cuit": "30715885596",
+"address": "SALGUERO, JERONIMO 3350",
+"locality": "PALERMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 220 ROAL",
+"owner": "ROAL S.R.L.",
+"cuit": "30577704798",
+"address": "ACOSTA, MARIANO 1195",
+"locality": "PARQUE AVELLANEDA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 290 LA ESTACION",
+"owner": "ESTACION S.A.",
+"cuit": "30707059466",
+"address": "LA PLATA, AV. 1395",
+"locality": "PARQUE CHACABUCO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA RBB. VELEZ",
+"owner": "REFINERIA BAHIA BLANCA SAU",
+"cuit": "30715885596",
+"address": "VELEZ SARSFIELD, AV. 522",
+"locality": "PARQUE PATRICIOS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1905 CABA",
+"owner": "FGC FUELS MARKETING SA",
+"cuit": "33714877769",
+"address": "FAMATINA 3399",
+"locality": "PARQUE PATRICIOS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION ALMAFUERTE",
+"owner": "ESTADIAS Y SERVICIOS S.A.",
+"cuit": "30645700135",
+"address": "ALMAFUERTE, AV. 187",
+"locality": "PARQUE PATRICIOS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION D'ATRI BRASIL",
+"owner": "TECNOLOGIA D ATRI S.R.L",
+"cuit": "30710490763",
+"address": "BRASIL, AV. 2984",
+"locality": "PARQUE PATRICIOS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA PAMPA - VELEZ",
+"owner": "PAMPA ENERGIA SA",
+"cuit": "30526552659",
+"address": "VELEZ SARSFIELD, AV. 522",
+"locality": "PARQUE PATRICIOS"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF SERVINORTE",
+"owner": "SERVINORTE S.A.",
+"cuit": "30645722554",
+"address": "PARAGUAY 1676",
+"locality": "RECOLETA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1230 LIBERTADOR",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "DEL LIBERTADOR, AV. 0",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE LIBERTADOR",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "DEL LIBERTADOR, AV. 7112",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE VILLA LURO",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "JUSTO, JUAN B., AV. 8005",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE GARAY",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "GARAY, JUAN DE, AV. 1302",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE LAS HERAS",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "LAS HERAS, GRAL., AV. 2499",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE BONPLAND",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "CORDOBA, AV. 5653",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE TRELLES",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "GAONA, AV. 2399",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE LOS INCAS",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "DE LOS INCAS, AV. 3550",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE DEL TEJAR",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "MONROE, AV. 3078",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE PARQUE SARMIENTO",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "TRIUNVIRATO, AV. 5878",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE ALBERDI",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "LA PLATA, AV. 575",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE ALSINA",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "JUJUY, AV. 164",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE ANCHORENA",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "RIVADAVIA, AV. 3199",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE CENTENERA",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "FERNANDEZ DE LA CRUZ FRA 1501",
+"locality": "RETIRO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF GASPARQUE",
+"owner": "GASPARQUE S.A.",
+"cuit": "30650296997",
+"address": "BALBIN, RICARDO, DR. 5041",
+"locality": "SAAVEDRA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF PETROLFE",
+"owner": "PETROLFE S.A.",
+"cuit": "30696131003",
+"address": "SAN JUAN, AV. 2901",
+"locality": "SAN CRISTOBAL"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF INDEPENDENCIA INCAT DUAL",
+"owner": "INCAT S R L",
+"cuit": "30515800219",
+"address": "INDEPENDENCIA, AV. 2701",
+"locality": "SAN CRISTOBAL"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA COMBUST. VAZQUEZ",
+"owner": "COMBUSTIBLES VAZQUEZ HNOS. SRL",
+"cuit": "30636177950",
+"address": "ENTRE RIOS, AV. 1102",
+"locality": "SAN CRISTOBAL"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION URANIA",
+"owner": "ROSARIO ELENA SICA",
+"cuit": "27034193180",
+"address": "CHACABUCO 705",
+"locality": "SAN TELMO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1885 VERSALLES",
+"owner": "VERSALLES MULTISERVICE SRL",
+"cuit": "33661374859",
+"address": "IRIGOYEN 1260",
+"locality": "VERSALLES"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1229 BEIRO",
+"owner": "COLON S.R.L.",
+"cuit": "30516773940",
+"address": "DE LOS CONSTITUYENTES,AV 3516",
+"locality": "VERSALLES"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF DORREGO DUAL",
+"owner": "EESS NUEVA BORGHETTO SA",
+"cuit": "30712078002",
+"address": "DORREGO, AV. 443",
+"locality": "VILLA CRESPO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE LUIS VIALE",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "SAN MARTIN 1521",
+"locality": "VILLA CRESPO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "BLANCA SERVIGAS",
+"owner": "SERVIGAS SA",
+"cuit": "30641978961",
+"address": "GALLARDO, ANGEL, AV. 699",
+"locality": "VILLA CRESPO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF LA QUINTA ESTACION",
+"owner": "LA QUINTA ESTACION SRL",
+"cuit": "30711439311",
+"address": "MOSCONI, GRAL., AV. 3289",
+"locality": "VILLA DEL PARQUE"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 271 NAZCA GNC",
+"owner": "ESTACION DE SERVICIO LASCANO 2000 SA",
+"cuit": "30707295275",
+"address": "NAZCA, AV. 2502",
+"locality": "VILLA DEL PARQUE"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF JONTE 3386 SRL",
+"owner": "JONTE 3386 SRL",
+"cuit": "33653335259",
+"address": "ALVAREZ JONTE, AV. 3386",
+"locality": "VILLA DEL PARQUE"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF SAN MARTIN",
+"owner": "SUCESORES DE LOPEZ ALDAO Y CIA SRL",
+"cuit": "30537648704",
+"address": "SAN MARTIN, AV. 7001",
+"locality": "VILLA DEVOTO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1178 V. DEVOTO",
+"owner": "PERFORMANCE FUELS SRL",
+"cuit": "30717018156",
+"address": "BEIRO, FRANCISCO, AV. 4610",
+"locality": "VILLA DEVOTO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF JUAN B. JUSTO",
+"owner": "PROODOS SA",
+"cuit": "30518707627",
+"address": "JUSTO, JUAN B., AV. 5315",
+"locality": "VILLA GENERAL MITRE"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1617",
+"owner": "FAST OIL S.A.",
+"cuit": "30702088328",
+"address": "SAN MARTIN, AV. 2401",
+"locality": "VILLA GENERAL MITRE"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1340",
+"owner": "BRAMO S.A.",
+"cuit": "30574300858",
+"address": "JUSTO, JUAN B., AV. 4407",
+"locality": "VILLA GENERAL MITRE"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF LA RUEDA",
+"owner": "CALITRI F.L Y NIETO A.H. S.H.",
+"cuit": "33709401489",
+"address": "ESCALADA, AV. 2951",
+"locality": "VILLA LUGANO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "PUMA V. LUGANO",
+"owner": "EST.DE SERV.VAZQUEZ HNOS.SRL.",
+"cuit": "30636178019",
+"address": "PIEDRA BUENA, AV. 4611",
+"locality": "VILLA LUGANO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF - RED PETROL - LUGANO DUAL",
+"owner": "RED PETROL S.A.",
+"cuit": "30636622695",
+"address": "RABANAL, INTENDENTE AV 6787",
+"locality": "VILLA LUGANO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF SERVICIO ESCALADA",
+"owner": "SERVICIO ESCALADA SA",
+"cuit": "30571048619",
+"address": "ESCALADA, AV. 678",
+"locality": "VILLA LURO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF CORRO VILLA LURO",
+"owner": "CORRO NORTE SA",
+"cuit": "33552744859",
+"address": "CORRO M.C.DEL CNGO. AV. 501",
+"locality": "VILLA LURO"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "YPF AVALOS",
+"owner": "ESTACION DE SERVICIO AVALOS S.",
+"cuit": "30541715580",
+"address": "DE LOS INCAS, AV. 4801",
+"locality": "VILLA ORTUZAR"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE AMERICA",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "MOSCONI, GRAL., AV. 2500",
+"locality": "VILLA PUEYRREDON"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE AMANECER",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "BEIRO, FRANCISCO, AV. 5501",
+"locality": "VILLA REAL"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1190 BALBIN",
+"owner": "YAPAY NEASA S.R.L",
+"cuit": "30695243673",
+"address": "BALBIN, RICARDO, DR. 3560",
+"locality": "VILLA URQUIZA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 288 ACENAF",
+"owner": "ACENAF S.R.L.",
+"cuit": "30680690967",
+"address": "DE LOS CONSTITUYENTES,AV 4435",
+"locality": "VILLA URQUIZA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "SHELL 1507 CONST",
+"owner": "DEHEZA S.A.I.C.F.E.I.",
+"cuit": "30516186670",
+"address": "PAZ, GRAL., AVENIDA 0",
+"locality": "VILLA URQUIZA"
+},
+{
+"province": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+"name": "AXION PAE CONGRESO",
+"owner": "PAN AMERICAN ENERGY S.L. SUC. ARG",
+"cuit": "30695542476",
+"address": "CONGRESO, AV. 4801",
+"locality": "VILLA URQUIZA"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF LA COLORADA AGUILARES",
+"owner": "REGI GRUPO S.A",
+"cuit": "30675311702",
+"address": "VELEZ SARFIELD Y BERNARDINO RIVADAVIA",
+"locality": "AGUILARES"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF OASIS 2",
+"owner": "TIBURCIO SANZ S.A.",
+"cuit": "30707102418",
+"address": "JUAN DOMINGO PERON KM 2.5",
+"locality": "ALDERETES"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 781 TS OASIS",
+"owner": "TS OASIS SRL",
+"cuit": "30712696008",
+"address": "RUTA NAC 9 KM 1288",
+"locality": "BANDA DEL RIO SALI"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF OASIS 4 BD RIO SALI",
+"owner": "TIBURCIO SANZ S.A.",
+"cuit": "30707102418",
+"address": "AV SAN MARTIN 501",
+"locality": "BANDA DEL RIO SALI"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR DUAL 306",
+"owner": "Full Service S.R.L.",
+"cuit": "30708225149",
+"address": "RUTA NACIONAL 9 Y RUTA PROVINCIAL 306",
+"locality": "BANDA DEL RIO SALI"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1980",
+"owner": "ROMANO ROSA ELENA",
+"cuit": "27130066483",
+"address": "AV. ALEM Y RUTA 157",
+"locality": "BELLA VISTA"
+},
+{
+"province": "TUCUMAN",
+"name": "PUMA RUTA NAC. 9 BENJAMIN PAZ",
+"owner": "COMBUSTIBLES DEL NORTE SRL",
+"cuit": "30710751281",
+"address": "RUTA NACIONAL 9 KM 1349",
+"locality": "BENJAMIN PAZ"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 829 LA PICHONA",
+"owner": "LA PICHONA S.R.L.",
+"cuit": "30708266511",
+"address": "RUTA 38 Y J.V. GONZALEZ",
+"locality": "CONCEPCION"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF AV. DEL BICENTENARIO CONCE",
+"owner": "NAHUEN S.R.L.",
+"cuit": "30714714429",
+"address": "AVDA. DEL BICENTENARIO SN",
+"locality": "CONCEPCION"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1854",
+"owner": "LA ESTACION CALCHAQUI SRL",
+"cuit": "30715849263",
+"address": "RUTA NAC.38 ESQUINA AV. CALCHAQUI",
+"locality": "FAMAILLA"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR DUAL FAMAILLA",
+"owner": "SERVICIOS RL S.R.L.",
+"cuit": "30711168490",
+"address": "RUTA NACIONAL 38 Y ROTONDA FAMAILLA",
+"locality": "FAMAILLA"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR ALBERDI TUCUMAN",
+"owner": "Full Service S.R.L.",
+"cuit": "30708225149",
+"address": "RM 38 KM 712",
+"locality": "JUAN B.ALBERDI"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1873",
+"owner": "ESTACION DE SERVICIOS MARIA SRL",
+"cuit": "33714208069",
+"address": "Ruta Nacional 38 km 688",
+"locality": "LA COCHA"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF RUTA 38 LA COCHA",
+"owner": "REGI LA COCHA S.A.",
+"cuit": "30714675865",
+"address": "RN 38 KM 688.9",
+"locality": "LA COCHA"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 2111 SERVICIO RL",
+"owner": "SERVICIOS RL S.R.L.",
+"cuit": "30711168490",
+"address": "RUTA PROV. 306 KM 21",
+"locality": "LEALES"
+},
+{
+"province": "TUCUMAN",
+"name": "DAPASA RUTA NAC. 9 LOS NOGALES",
+"owner": "LUMMA INVERSIONES S.A.",
+"cuit": "30717242196",
+"address": "RUTA NAC N 9 KM 1308",
+"locality": "LOS NOGALES"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 721 EL CADILLAL",
+"owner": "ALVAREZ MIGUEL ANGEL",
+"cuit": "20080684585",
+"address": "RUTA 9 KM 1304",
+"locality": "LOS NOGALES"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1962 PETROLERA ANVA",
+"owner": "PETROLERA ANVA S.R.L.",
+"cuit": "30710776780",
+"address": "AV. 9 DE JULIO (ESQ. RUTA 301) 400",
+"locality": "LULES"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1942",
+"owner": "SERVICIOS RL S.R.L.",
+"cuit": "30711168490",
+"address": "ESPAÑA Y RUTA 38",
+"locality": "MONTEROS"
+},
+{
+"province": "TUCUMAN",
+"name": "BLANCA DUAL ACHERAL",
+"owner": "ROMANO ROSA ELENA",
+"cuit": "27130066483",
+"address": "RUTA NACIONAL 38 Y RUTA PROVINCIAL 307",
+"locality": "MONTEROS"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF EL EMPALME TUCUMAN",
+"owner": "Full Service S.R.L.",
+"cuit": "30708225149",
+"address": "RUTA NAC NUM 9 KM 1284 1248",
+"locality": "PACARA"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF RIO SECO",
+"owner": "Full Service S.R.L.",
+"cuit": "30708225149",
+"address": "RN 38 Y CORDOBA DE TUCUMAN",
+"locality": "RIO SECO"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1464 OASIS B&V",
+"owner": "SANZ DE OSA CLAUDIA-SANZ TIBURCIO Y SANZ LUIS SH",
+"cuit": "30691737817",
+"address": "VIAMONTE 892",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF ESTACION DE SERVICIOS CIUD",
+"owner": "PRODUCCION S.A.",
+"cuit": "30685655329",
+"address": "AV. ROCA 1773",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR EESS EL BAJO",
+"owner": "ESTACION EL BAJO S.A.",
+"cuit": "30709040509",
+"address": "AV BENJAMIN ARAOZ 93",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1369 YERBA BUENA",
+"owner": "PEVISA S.R.L.",
+"cuit": "30675349572",
+"address": "AV.MATE DE LUNA 4089",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL AV. REPUBLICA SIRIA",
+"owner": "TRANSPAC S.R.L.",
+"cuit": "30714453749",
+"address": "AV REPUBLICA DE SIRIA 1125",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "AXION LIBERTAD",
+"owner": "MICHAEL DANIEL CARNICER",
+"cuit": "20924211394",
+"address": "AV. ROCA 3450",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "AXION EL JARDIN",
+"owner": "MICHAEL DANIEL CARNICER",
+"cuit": "20924211394",
+"address": "EMILIO CASTELLAR 1003",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR DUAL GEO GAS",
+"owner": "CAR GAS S.A.",
+"cuit": "30709365785",
+"address": "AV. SIRIA 920",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL AV. MITRE",
+"owner": "LA PARADA SRL",
+"cuit": "30708474971",
+"address": "AV MITRE 385",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR JUAN B JUSTO",
+"owner": "ESTACION DE SERVICIOS NORTE S.R.L.",
+"cuit": "30533956633",
+"address": "AV JUAN B. JUSTO 1002",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 187",
+"owner": "MENA SRL.FRANCISCO JAIME",
+"cuit": "33535382889",
+"address": "AV. ROCA Y 9 DE JULIO",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "PEVISA AUTOCENTRO",
+"owner": "PEVISA S.R.L.",
+"cuit": "30675349572",
+"address": "CATAMARCA 353",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1523",
+"owner": "FORTINO, FIORIO Y MERLETTI S.H.",
+"cuit": "30691825430",
+"address": "AV. EJERCITO DEL NORTE 196",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 686",
+"owner": "FORTINO Y CIA.SRL",
+"cuit": "30539521361",
+"address": "AV. ROCA Y CONSTITUCION",
+"locality": "S.MIGUEL DE TUCUMAN"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1792",
+"owner": "JOSE A. FORTINO Y OTROS SH",
+"cuit": "30622250523",
+"address": "AV. GOBERNADOR DEL CAMPO 1080",
+"locality": "SAN MIGUEL"
+},
+{
+"province": "TUCUMAN",
+"name": "RUTA PCIAL. 311 KM.23 S.P.DE C",
+"owner": "LUMMA INVERSIONES S.A.",
+"cuit": "30717242196",
+"address": "RUTA PROVINCIAL 311 KM 23",
+"locality": "SAN PEDRO DE COLALAO"
+},
+{
+"province": "TUCUMAN",
+"name": "YPF LOS VALLES",
+"owner": "SERVICENTRO LOS VALLES S.R.L.",
+"cuit": "30691800802",
+"address": "PRESIDENTE PERON ESQ TUPAC AMARÚ",
+"locality": "TAFI DEL VALLE"
+},
+{
+"province": "TUCUMAN",
+"name": "SHELL 1877 TAFI VIEJO",
+"owner": "Full Service S.R.L.",
+"cuit": "30708225149",
+"address": "CONGRESO 715",
+"locality": "TAFI VIEJO"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR AV. ROCA TAFI VIEJO",
+"owner": "VILLAGRA VELEZ ANA CAROLINA",
+"cuit": "27201781405",
+"address": "AVENIDA ROCA 210",
+"locality": "TAFI VIEJO"
+},
+{
+"province": "TUCUMAN",
+"name": "BLANCA RUTA 9 TRANCAS",
+"owner": "MUHIC GIANNI MIRKO",
+"cuit": "20296739554",
+"address": "RUTA 9 KM 1361,6",
+"locality": "TRANCAS"
+},
+{
+"province": "TUCUMAN",
+"name": "REFINOR YERBA BUENA",
+"owner": "Full Service S.R.L.",
+"cuit": "30708225149",
+"address": "AV ACONQUIJA 1931",
+"locality": "YERBA BUENA"
+},
+{
+"province": "TUCUMAN",
+"name": "GNC ACONQUIJA (YERBA BUENA)",
+"owner": "GNC ACONQUIJA S.R.L.",
+"cuit": "30708287209",
+"address": "AVDA. ACONQUIJA 340",
+"locality": "YERBA BUENA"
+}
+]

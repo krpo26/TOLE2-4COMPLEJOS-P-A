@@ -1,0 +1,93 @@
+name: parque_automotor_benjamin_paz
+description: "PARQUE AUTOMOTOR BENJAMIN PAZ — Sistema de gestión y control de flota de vehículos y choferes."
+publish_to: 'none'
+version: 1.0.2+3
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Manejo de estado
+  provider: ^6.1.2
+
+  # Persistencia local (offline-first)
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # Fechas
+  intl: ^0.19.0
+
+  # Notificaciones locales (vencimientos / service)
+  flutter_local_notifications: ^17.2.2
+
+  # Identificadores únicos
+  uuid: ^4.4.0
+
+  # Autenticación del usuario (god node)
+  flutter_secure_storage: ^9.2.2
+  crypto: ^3.0.5
+
+  # Reportes PDF
+  pdf: ^3.11.1
+  printing: ^5.13.4
+
+  # Sincronización online (opcional) manteniendo SQLite como fuente
+  # de verdad offline. Ver README: "Modo online / offline".
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  connectivity_plus: ^6.0.5
+  # Autenticación anónima: necesaria para que firestore.rules pueda
+  # exigir `request.auth != null` y así cerrar el acceso a Firestore
+  # a cualquiera que no pase por la app (ver sync_service.dart).
+  firebase_auth: ^5.3.1
+
+  # Tema, tipografía, fotos y documentos
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  google_fonts: ^6.2.1
+
+  # Planillas de combustible / ficha técnica (formato .csv, se abre
+  # perfecto en Excel/Sheets con doble clic)
+  csv: ^6.0.0
+
+  # Compartir archivos generados (Excel, respaldos)
+  share_plus: ^10.1.2
+  cross_file: ^0.3.4+2
+
+  # Elegir un archivo de respaldo (.json) para restaurar
+  file_picker: ^8.1.2
+
+  # Fotos y respaldos en la nube
+  firebase_storage: ^12.3.4
+
+  # Tareas en segundo plano (alertas fuera de la app, respaldo automático)
+  workmanager: ^0.9.0+3
+
+  # Reproduce el audio propio que el admin carga para la alerta sonora.
+  audioplayers: ^6.1.0
+
+  # Estación más cercana: ubicación del celular, coordenadas de cada
+  # dirección y apertura de Google Maps (indicaciones para llegar).
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  url_launcher: ^6.3.0
+
+  # Bloquea capturas y grabación de pantalla mientras la app está
+  # abierta (refuerza el marco legal de confidencialidad).
+  screen_protector: ^1.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/data/estaciones_ticket_car.json

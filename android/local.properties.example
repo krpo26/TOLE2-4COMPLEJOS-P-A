@@ -1,0 +1,6 @@
+# Este archivo lo genera Flutter/Android Studio automáticamente al
+# abrir el proyecto (o al correr `flutter pub get`). NO se sube a git.
+# Ejemplo de contenido esperado:
+#
+# sdk.dir=/Users/tu_usuario/Library/Android/sdk
+# flutter.sdk=/Users/tu_usuario/development/flutter

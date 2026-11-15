@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48389241158",
+    "project_id": "parque-automotor-benjami-d88ce",
+    "storage_bucket": "parque-automotor-benjami-d88ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48389241158:android:be93de8d79faa10b310d47",
+        "android_client_info": {
+          "package_name": "com.fleetapp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5GNmgbMyUBcdrgSh0n_8iiy-ZW4uYM-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
