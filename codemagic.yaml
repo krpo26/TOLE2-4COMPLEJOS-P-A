@@ -4,7 +4,11 @@ workflows:
     max_build_duration: 60
     instance_type: mac_mini_m2
     environment:
-      flutter: stable
+      # Version FIJA de Flutter (no "stable"): "stable" cambia sola cada
+      # pocos meses y empezo a exigir Gradle/AGP/Kotlin mas nuevos, lo que
+      # rompia el build. 3.38.5 usa exactamente las versiones que ya tiene
+      # el proyecto en android/ (Gradle 8.14, AGP 8.11.1, Kotlin 2.2.20).
+      flutter: 3.38.5
       # Grupo de variables seguras creado en Codemagic (Settings del
       # proyecto → Environment variables → grupo "keystore_credentials"):
       #   CM_KEYSTORE            → la keystore .jks codificada en base64
